@@ -32,7 +32,7 @@ const Footer = () => {
                     <a className='mailto-element' href={`mailto:hei.sarobidy@gmail.com`}>hei.sarobidy@gmail.com</a>
                 </div>
             </div>
-            <a className='footer-copyright' href={socialMedia[0].url}>
+            <a className='footer-copyright' href="https://github.com/Sarobidy-23/personal-site">
                 Designed & Built by Fanomezana Sarobidy
             </a>
         </div>
