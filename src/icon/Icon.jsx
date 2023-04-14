@@ -8,6 +8,8 @@ const Icon = ({name}) => {
             return <LinkedinIcon />;
         case 'github':
             return <GithubIcon />;
+        default:
+            return
     }
 }
 
