@@ -1,12 +1,12 @@
 :root {
   --dark-navy: #020c1b;
   --light-slate: #a8b2d1;
+  --green-tint: rgba(100, 255, 218, 0.1);
+  --green: #64ffda;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--dark-navy);
@@ -15,6 +15,11 @@ body {
   width: 100vw;
   height: 100vh;
   text-align: center;
+  scroll-behavior: smooth;
+  line-height: 1.3;
+  font-size: 20px;
+  font-size:'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
+  sans-serif;
 }
 
 code {
@@ -26,6 +31,9 @@ svg {
 .home-container {
   padding: min(5%, 80px);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   min-height: 80vh;
 }
